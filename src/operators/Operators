@@ -1,0 +1,72 @@
+
+Operators in Java
+
+Operators are the symbols that is used to perform certain opearations.
+Note that Operators will always act upon operands to perform a specific operation.
+Based on the operand that the operator is acting upon operator are classified into three types.
+
+1) Unary
+     These are the operators that will act upon single opearand
+2) Binary
+	These are the operators that will act upon two operand
+3) Ternary
+	These are the operators that will act upon three operands
+	
+Types of Binary	operators
+1)Arithmetic Operators
+Example1: 
+
+package operators;
+
+public class Program1 {
+	public static void main(String[] args) {
+		// var is a keyword used to store dyanamic variables, var keyword automatically set the data depended on the value we gave.
+		var a = 10;
+		var b = 2;
+		var c = a+b;
+		var d = a-b;
+		var e = a*b;
+		var f = a/b;
+		var g = a%b; 
+
+		System.out.println("Addition result is "+c);
+		System.out.println("Subtraction result is "+d);
+		System.out.println("Multiplication result is "+e);
+		System.out.println("Quotient result is "+f);
+		System.out.println("Remainder result is "+g);
+		
+	}
+
+}
+
+
+package operators;
+
+public class Program1 {
+	public static void main(String[] args) {
+		// var is a keyword used to store dyanamic variables, var keyword automatically set the data depended on the value we gave.
+		var a = 10;
+		var b = 2;
+	/*	var c = a+b;
+		var d = a-b;
+		var e = a*b;
+		var f = a/b;
+		var g = a%b;  */
+
+		System.out.println("Addition result is "+(a+b));
+		System.out.println("Subtraction result is "+(a-b));
+		System.out.println("Multiplication result is "+(a*b));
+		System.out.println("Quotient result is "+(a/b));
+		System.out.println("Remainder result is "+(a%b));
+		
+	}
+
+}
+
+
+
+	
+	
+2)Relational Operators
+
+3)Logical Operators
