@@ -13,7 +13,7 @@ Based on the operand that the operator is acting upon operator are classified in
 	These are the operators that will act upon three operands
 	
 Types of Binary	operators
-1)Arithmetic Operators
+1)Arithmetic Operators --> Arithmetic operators will perform on numbers
 Example1: 
 
 package operators;
